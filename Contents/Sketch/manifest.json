@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Copy json to clipboard",
+      "identifier": "generate",
+      "script": "index.js"
+    }
+  ],
+  "menu": {
+    "title": "CiffiDesignToken",
+    "items": [
+      "generate"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "Crete json design token",
+  "name": "CiffiDesignToken",
+  "identifier": "CiffiDesignToken",
+  "disableCocoaScriptPreprocessor": false,
+  "appcast": "",
+  "author": "ciffi"
+}
